@@ -234,3 +234,51 @@ MYNTCamera
 .. code:: java
 
    public int getDistanceValue(int index)
+
+
+获取自动曝光开启状态
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: java
+
+   public boolean getAEStatusEnabled()
+
+
+开启自动曝光
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: java
+
+   public void setEnableAE()
+
+
+关闭自动曝光
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: java
+
+   public void setDisableAE()
+
+
+获取自动白平衡开启状态
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: java
+
+   public boolean getAWBStatusEnabled()
+
+
+开启自动白平衡
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: java
+
+   public void setEnableAWB()
+
+
+关闭自动白平衡
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: java
+
+   public void setDisableAWB()
