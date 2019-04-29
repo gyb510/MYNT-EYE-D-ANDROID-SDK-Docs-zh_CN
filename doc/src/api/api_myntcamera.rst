@@ -64,7 +64,7 @@ MYNTCamera
 
    public void setCameraListener(ICameraListener callback)
 
-设置IMU信息的回调
+设置IMU信息的回调 （带IMU机型）
 ~~~~~~~~~~~~~~~~~
 
 .. code:: java
