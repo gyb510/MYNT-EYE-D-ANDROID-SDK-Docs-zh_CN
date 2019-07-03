@@ -282,3 +282,21 @@ MYNTCamera
 .. code:: java
 
    public void setDisableAWB()
+
+
+开关帧率显示
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code:: java
+
+   public void setEnableFrameFPS(boolean enable, int camera_switch)
+
+保存点云
+~~~~~~~~~~~~~~~~~~
+
+.. code:: java
+
+   public void savePointCloud(final FrameData colorFrameData,
+                              final FrameData depthFrameData,
+                              final String filePath,
+                              Boolean hasColor)
